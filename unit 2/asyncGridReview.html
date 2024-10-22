@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Async Grid Review</title>
+    <style>
+        .divRules {
+            background-color: darkcyan;
+            height: 35px;
+            width: 35px;
+            margin: 10px;
+        }
+        .container { 
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto;
+}
+.Bodymain {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#navSpeficic {
+    width: 3000px;
+}
+.BodyMain {display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+    </style>
+</head>
+<body class="container">
+    <div class="nav">
+        <div class="divRules" id="navSpeficic">1</div>
+    </div>
+    <div class="Bodymain">
+        <div class="divRules" style="width: 800px; height: 250px;">2</div>
+        <div class="divRules" style="width: 800px; height: 250px;">3</div>    
+    </div>
+    <div class="BodyMain">
+        <div class="divRules" style="width: 400px; height: 250px;">4</div>
+        <div class="divRules" style="width: 400px; height: 250px;">5</div>
+        <div class="divRules" style="width: 400px; height: 250px;">6</div>    
+    </div>
+    <div>
+        <div class="divRules" id="navSpeficic">7</div>
+    </div>
+</body>
+
+</html>
