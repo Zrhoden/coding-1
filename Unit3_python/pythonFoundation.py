@@ -33,4 +33,4 @@ print(number1, number2)
 name = 'my name is Zion'
 activity = 'I am going to play my game'
 time= 'I will do this at 7:00'
-print (name, activity, time)
+print (name,activity, time)
