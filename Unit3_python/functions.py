@@ -12,7 +12,7 @@ print('Coding Class')
 name = input('what is your name')
 print(name)
 
-number = int(input('please provide a numver'))
+number = int(input('please provide a number'))
 print(23*number)
 #  User Defined Functions
 
@@ -30,3 +30,28 @@ def sandwhichinstructions():
 
 # this is a function call
 sandwhichinstructions()
+
+#functions using arithmetic operators
+
+def depositMoney(x):
+    checkingAccount = 100
+    print('Money has been deposited successfully') 
+    print('new checking account balance is below')
+    print(x + checkAccountBalance)
+
+    depositMoney(35)
+    depositMoney(200)
+
+def withdrawMoney(x):
+  checkingAccount = 335
+  print('Money has been withdrawn successfully')
+  print('new checking account balance is below')
+  print(x + checkAccountBalance)
+
+  withdrawMoney(135)
+
+def checkAccountBalance(x):
+    checkAccount = 1000
+    print('here is your current account balance')
+    print(checkAccount)
+   def transferMoney(): 
