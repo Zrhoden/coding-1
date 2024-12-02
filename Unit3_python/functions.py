@@ -8,12 +8,12 @@
 
 # print() is a built in function. When we pass data it will output it into the terminal automatically
 print('Coding Class') 
-#input() is a built in function. it allows us to write and pass data into our programs from the terminal
+# input() is a built in function. it allows us to write and pass data into our programs from the terminal
 name = input('what is your name')
 print(name)
 
 number = int(input('please provide a number'))
-print(23*number)
+print(23 number)
 #  User Defined Functions
 
 #Function Syntax - how it is written
@@ -54,4 +54,24 @@ def checkAccountBalance(x):
     checkAccount = 1000
     print('here is your current account balance')
     print(checkAccount)
-   def transferMoney(): 
+    def transferMoney(): 
+
+# built-in functions
+     'The instruction for our function is already written into the system'
+print()
+input()
+int()
+str()
+float()
+# user - defined functions
+'We as engineers write the instructions for our programs step by step.'
+def welcomeMessage():
+   print("Hello, Welcome back to school," + name)
+   name = input("please type in your name")
+
+
+def sandwhich():
+   print('step 2 put it together')
+   print('step 1 get ingredients')
+
+welcomeMessage()
