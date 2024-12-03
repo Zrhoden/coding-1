@@ -13,7 +13,8 @@ name = input('what is your name')
 print(name)
 
 number = int(input('please provide a number'))
-print(23 number)
+print()
+
 #  User Defined Functions
 
 #Function Syntax - how it is written
