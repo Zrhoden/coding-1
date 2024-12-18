@@ -26,20 +26,28 @@ def movieTicketPrice(age):
 # Number 3
 
 
-def calculateDiscount(membership, name, price):
-    # Define the discount rates for each membership
+def discountFunction(membership,itemPrice):
+    
     if membership == "superShopper":
-        discount = 0.10
+        print('you are getting 10 percent off')
+        discount= itemPrice * .1
+        total= itemPrice - discount
+        print(total)
     elif membership == "megaShopper":
-        discount = 0.15
+          print('you are getting 15 percent off')
+          discount= itemPrice * .15
+          total= itemPrice - discount
+          print(total)
     elif membership == "ultraShopper":
-        discount = 0.20
+          print('you are getting 20 percent off')
+          discount= itemPrice * .2
+          total= itemPrice - discount
+          print(total)
     else:
-        return "Invalid membership type."
+        print('Error: sorry, that type of membership doesnt exist')
    
 
-    savings = price * discount
-    final = price - savings
+discountFunction('superShopper', 150)    
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
