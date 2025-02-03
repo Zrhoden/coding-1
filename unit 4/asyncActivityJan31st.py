@@ -18,6 +18,8 @@
 'we need a basic rps game with a best 2 out of 3 format'
 # 2. What are some keywords and phrases ? 
 'random select from program'
+# Where there any parts of the question that don't make sense, if so write them down in complete sentences.
+'no'
 # 3. Is there input data that the question provides ?
 'we need to take in the users RPS selection'
 # 4. What is the desired output ?
